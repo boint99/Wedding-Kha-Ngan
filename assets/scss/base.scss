@@ -1,0 +1,26 @@
+.icon::after {
+    background: url(../images/icon-small.svg) no-repeat;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 100px);
+    top: 3%;
+}
+
+@keyframes navMenu {
+    from {
+        transform: translate(150%,0);
+    } to {
+        transform: translate(0,0);
+    }
+}
+
+@keyframes slideImage {
+    0% {
+        opacity: 0;
+    }50% {
+        opacity: 0.5;
+    }100% {
+        opacity: 1;
+    }
+}
