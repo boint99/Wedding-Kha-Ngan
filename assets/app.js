@@ -22,7 +22,7 @@ submitBtn.addEventListener("submit", (e) => {
   else {
     const fetchApi = async () => {
       try {
-        const response = await fetch("https://sheet.best/api/sheets/8bcf9d42-7f12-4546-9cf6-d7c0a039c749", {
+        const response = await fetch("https://sheet.best/api/sheets/ca66a9b6-5c7f-4f97-83e6-75d0efb7c380", {
           method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(objectData),
@@ -57,7 +57,7 @@ submitBtn.addEventListener("submit", (e) => {
 
 const fetchData = async () => {
   const response = await fetch(
-    "https://sheet.best/api/sheets/8bcf9d42-7f12-4546-9cf6-d7c0a039c749",
+    "https://sheet.best/api/sheets/ca66a9b6-5c7f-4f97-83e6-75d0efb7c380",
     {
       method: "GET",
       headers: { "Content-Type": "application/json" },
