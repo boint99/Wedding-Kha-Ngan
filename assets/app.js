@@ -87,9 +87,9 @@ navBar.addEventListener("click", () => {
 //runsile background
 var i = 0;
 var imgArr = [
-  "./assets/images/background-1.webp",
-  "./assets/images/background-2.webp",
-  "./assets/images/background-3.webp",
+  "./assets/images/2.jpg",
+  "./assets/images/3.jpg",
+  "./assets/images/4.jpg",
 ];
 
 function slideShow_auto() {
